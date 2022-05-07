@@ -1,0 +1,17 @@
+{
+    "name": "user/to-do",
+    "autoload": {
+        "psr-4": {
+            "User\\ToDo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "farzad seyyedzadeh",
+            "email": "iamseyfarsey@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/polyfill-mbstring": "^1.25"
+    }
+}
