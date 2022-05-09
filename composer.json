@@ -1,17 +1,14 @@
 {
-    "name": "user/to-do",
-    "autoload": {
-        "psr-4": {
-            "User\\ToDo\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "farzad seyyedzadeh",
-            "email": "iamseyfarsey@gmail.com"
-        }
-    ],
+    "name": "loghman/7todo",
+    "description": "A Simple Todo List Project (With Ajax,Php and mysql)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Loghman Avand",
+        "email": "avand.loghman@gmail.com"
+    }],
+    "minimum-stability": "stable",
     "require": {
-        "symfony/polyfill-mbstring": "^1.25"
+        "hekmatinasser/verta": "^1.10"
     }
 }
