@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
 <div id="background">
 	<div id="panel-box">
 		<div class="panel">

@@ -11,11 +11,9 @@ function isAjaxRequest(){
     return false;
 }
 
-
 function site_url($uri = ''){
     return BASE_URL . $uri;
 }
-
 
 function redirect($url){
     header("Location: $url");
@@ -30,8 +28,6 @@ function diePage($msg){
 function message($msg,$cssClass = 'info'){
     echo "<div class='$cssClass' style='padding: 20px; width: 80%; margin: 10px auto; background: #f9dede; border: 1px solid #cca4a4; color: #521717; border-radius: 5px; font-family: sans-serif;'>$msg</div>";
 }
-
-
 
 function dd($var){
     echo "<pre style='color: #9c4100; background: #fff; z-index: 999; position: relative; padding: 10px; margin: 10px; border-radius: 5px; border-left: 3px solid #c56705;'>";
