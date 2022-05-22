@@ -8,8 +8,6 @@ if(!isAjaxRequest()){
 if(!isset($_POST['action']) || empty($_POST['action'])){
     diePage("Invalid Action!");
 }
-
-
 switch($_POST['action']){
     case "doneSwitch":
         $task_id = $_POST['taskId'];
